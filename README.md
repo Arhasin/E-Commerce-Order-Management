@@ -22,13 +22,6 @@ EXAMPLE Query
 
 Retrieve order details with customer names:
 
-SQL:
-
-SELECT orders.order_id, customers.name AS customer, products.name AS product, products.price 
-FROM orders 
-JOIN customers ON orders.customer_id = customers.customer_id 
-JOIN products ON orders.product_id = products.product_id;
-
 
 FUTURE ENHANCEMENTS
 
