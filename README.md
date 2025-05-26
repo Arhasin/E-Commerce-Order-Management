@@ -5,7 +5,7 @@ FEATURES
 4.Order Status Tracking: Real-time tracking of order progression.
 
 HOW TO USE
-1.Set up your database environment (e.g., MySQL, PostgreSQL).
+1.Set up your database environment (e.g., MySQL).
 2.Run the SQL scripts in the following order for proper table creation and data insertion:
 3.ecommerce.sql
 4.inventory.sql
